@@ -9,5 +9,6 @@ trait Everyone {
 
 fn main() {
     let vec = vec![1,2,3];
-    Everyone::capacity(&vec)
+    println!("{}", vec.capacity());
+    Everyone::capacity(&vec);
 }
